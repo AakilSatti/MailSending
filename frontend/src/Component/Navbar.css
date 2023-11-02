@@ -1,0 +1,24 @@
+.nav_container{
+        display: flex;
+        width: 80%;
+        margin: 0px auto;
+        gap: 2%;
+        align-items: center;
+        cursor: pointer;
+        background-color: rgb(133, 217, 211);
+        border-radius: 40px;
+        
+}
+.image-profile{
+    border-radius: 50%;
+    /* width: 3.4%; */
+    transform: scale(0.85);
+}
+.Login{
+    text-decoration: none;
+}
+.college{
+    padding-left: 25rem;
+    font-size: 1.4rem;
+    
+}

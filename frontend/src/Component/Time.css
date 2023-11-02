@@ -1,0 +1,98 @@
+.table_container{
+ display: flex;
+ justify-content: center;
+ padding-top: 4%;
+}
+.table{
+    width: 80%;
+    border: 8px rgb(69, 118, 158) solid;
+    background-color: rgba(14, 14, 13, 0.697);
+    color: white;
+}
+th{
+    width: 10%;
+    padding: 1%;
+}
+td{
+    padding: 1%;
+    text-align: center;
+    height: 6rem;
+    font-size: 1.2rem;
+}
+.model,.overlay{
+    width: 100vw;
+    height: 100vh;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.overlay{
+    background-color: rgba(49,49,49,0.8);
+}
+.model_contain{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    line-height:40px;
+    background-image: linear-gradient(white,rgb(157, 211, 227));
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 14px 28px;
+    border-radius: 40px;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+body{
+    /* background-image: linear-gradient(white,rgb(157, 211, 227)); */
+    background-image: url("../Assets/631.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 52vw;
+}
+.title{
+    width: 80%;
+    padding-left: 16%;
+    padding-top: 7.5%;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    
+}
+.emailinput{
+    width: 101%;
+    height: 30px;
+
+}
+.periodinput{
+    width: 100%;
+    height: 30px;
+}
+.login_button{
+    width: 20%;
+    height: 30px;
+    margin-top: 2%;
+    background-color: rgb(250, 201, 201);
+}
+.login_button2{
+    width: 20%;
+    height: 30px;
+    margin-top: 2%;
+    background-color: rgb(150, 210, 232);
+    
+}
+.login_button2:hover{
+    background-color: rgb(10, 171, 230);
+    color: aliceblue;
+}
+.login_button:hover{
+    background-color: rgb(239, 59, 39);
+    color: aliceblue;
+}
+td:hover{
+    background-color: rgb(10, 171, 230);
+    color: aliceblue;
+}
